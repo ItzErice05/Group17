@@ -16,7 +16,6 @@
     "url": "https://github.com/ItzErice05/Group17/issues"
   },
   "homepage": "https://github.com/ItzErice05/Group17#readme",
-  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
@@ -27,5 +26,7 @@
     "mongoose": "^8.19.1",
     "nodemon": "^3.1.10",
     "uuid": "^13.0.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
