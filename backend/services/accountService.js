@@ -1,4 +1,4 @@
-const Account = require('../models/Account');
+const Account = require('../models/accountModel');
 const accountValidator = require('../validators/accountValidator');
 
 class AccountService {
