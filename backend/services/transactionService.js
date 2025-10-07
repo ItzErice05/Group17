@@ -1,5 +1,5 @@
-const Transaction = require('../models/Transaction');
-const Account = require('../models/Account');
+const Transaction = require('../models/transactionModel');
+const Account = require('../models/accountModel');
 const transactionValidator = require('../validators/transactionValidator');
 
 class TransactionService {
