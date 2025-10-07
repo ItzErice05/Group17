@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transfer Funds</title>
+</head>
+<body>
+  <h1>Transferring Funds</h1>
+  <form id="transferFundsForm">
+    <label>
+      From Whom?
+      <input type="text" name="fundOrigin" required>
+    </label>
+    <br><br>
+    <label>
+      To Who?
+      <input type="text" name="fundReceiver" required>
+    </label>
+    <br><br>
+    <label>
+      Enter the amount:
+      <input type="number" name="amount" required>
+    </label>
+    <br><br>
+    <button type="submit">Transfer</button>
+  </form>
+
+  <p id="result"></p>
+
+  <script src = "../Script/transferFunds.js"> </script>
+</body>
+</html>
